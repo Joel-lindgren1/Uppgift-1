@@ -1,0 +1,76 @@
+body{
+display: grid;
+grid-template-columns: 30vh 70vh ;  
+grid-template-rows: 25vh 55vh 20vh;  
+}
+img{
+grid-column: 1/2 ;
+max-height: 90%;
+max-width: 90%;
+grid-row: 1/2;
+border: 3px solid black;
+border-radius: 10px;
+margin:6%;
+height: auto;
+width: auto;
+}
+.rubrik{
+grid-column: 2/4;
+text-align: center;
+grid-row: 1/2;
+border: 3px solid black;
+border-radius: 10px;
+margin-top: 1%;
+}
+.left{
+grid-column: 1/2;
+grid-row: 2/3;
+border: 3px solid black;
+border-radius: 10px;
+padding: 15%;
+margin-left: 12px;
+margin-right: 12px;
+margin-top: 10%;
+min-height: 113%;
+
+}
+
+.main{
+grid-column: 2/4;
+grid-row: 2/3;
+text-align: center;
+margin-top: 0;
+
+}
+.ett{
+border: 3px solid black;
+border-radius: 10px;
+padding: 5px;
+margin-bottom: 5px;
+
+}
+
+.two{
+border: 3px solid black;
+border-radius: 10px;
+padding: 5px;
+margin-bottom: 5px;
+
+}
+.tree{
+border: 3px solid black;
+border-radius: 10px;
+padding: 5px;
+margin-bottom: 5px;
+ 
+}
+
+footer{
+grid-row: 4/4;
+grid-column: 2/4;
+border: 3px solid black;
+border-radius: 10px;
+text-align: center;
+line-height: 300%;
+margin-top: 1%;
+}
